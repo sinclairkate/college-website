@@ -1,0 +1,78 @@
+* {
+	font-family: 'Abril Fatface', cursive;
+}
+
+body {
+	background-color: #ccc;
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+
+.btn {
+	background-color: purple;
+	padding: 20px 40px;
+	border-radius: 30px;
+	box-shadow: 0px 5px 0px #202020;
+	color:  white;
+	text-decoration: none;
+	transition: top .3s ease;
+	position: relative;
+}
+
+.btn:hover {
+	top:  5px;
+	box-shadow: none;
+	background-color: green;
+}
+
+header {
+	background-color:  white;
+	padding: 20px 0;
+	box-shadow: 0px 1px 5px #202020;
+	position:  fixed;
+	width:  100%;
+	top:  0;
+}
+
+header ul {
+	margin: 0;
+	padding:  0;
+	display:  flex;
+	justify-content: space-around;
+	list-style-type:  none;
+}
+
+header a {
+	color: purple;
+	text-decoration: none;
+	transition: color .3s ease;
+}
+
+header a:hover {
+	color: green;
+}
+
+div.container {
+	margin:  60px auto;
+	width:  80%;
+}
+
+section {
+	background-image: url(ragdoll-1.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding:  200px 0;
+	text-align: center;
+}
+
+section h1 {
+	font-size:  100px;
+	color:  white;
+}
+
+
+
